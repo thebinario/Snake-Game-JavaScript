@@ -1,0 +1,30 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color: rgb(52, 165, 52);
+}
+
+.barra-infor{
+    position: absolute;
+    display: flex; 
+    /* border: red solid 1px; */
+    color: green;    
+
+    margin-top: -450px;
+    width: 62vh;
+    justify-content: space-between;
+}
+.barra-infor h3{
+   /* border: tomato solid 1px; */
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.barra-infor h3 span{
+    color: hotpink;
+}
